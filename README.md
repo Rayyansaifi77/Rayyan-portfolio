@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, educ
 
 ## 🚀 Live Demo
 
-👉 [Visit Portfolio](https://rayyansaifi77.github.io/rayyan-portfolio/)
+👉 [Visit Portfolio](https://rayyansaifi77.github.io/Rayyan-portfolio/)
 
 ## 📁 Project Structure
 
