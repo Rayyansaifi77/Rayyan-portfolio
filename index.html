@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rayyan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- Navigation -->
+<header class="navbar">
+  
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="hamburger">&#9776;</label>
+  
+  <div class="logo">RAYYAN'S PORTFOLIO</div>
+
+  <ul class="nav-links">
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#About">About</a></li>
+    <li><a href="#Services">Services</a></li>
+    <li><a href="#Projects">Projects</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
+  
+</header>
+
+  <!-- Hero Section -->
+<section id="Home" class="hero-section">
+  <div class="hero-container">
+    <h1>I'm <span class="highlight">Rayyan</span></h1>
+    <p>and i am a passionate</p>
+    <h2><span id="element"></span></h2>
+
+ <div class="hero-icons">
+      <a href="resume.pdf/Rayyan resume.pdf" download title="Download Resume">
+        <i class="fas fa-file-download"></i>
+      </a>
+      <a href="https://Github.com/Rayyansaifi77 " target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/rayyan-saifi77" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/rr.png.png" alt="Rayyan">
+    </div>
+  </div>
+</section>
+
+  <!-- About Section -->
+  <section id="About" class="about-section">
+    <div class="container about-flex">
+      <div class="about-info">
+        <h2>About Me</h2>
+        <p>Hello! I'm Rayyan, a Bachelor of Computer Applications (BCA) student with a strong interest in web development, UI/UX design, and modern front-end technologies. I love creating beautiful and user-friendly websites that not only look great but also perform well. I'm currently improving my skills in HTML, CSS, JavaScript, and GitHub.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+<section id="education" class="education-section">
+  <h2>Education</h2>
+  <div class="education-box">
+    <div class="edu-item">
+      <h3>BCA (Bachelor of Computer Applications)</h3>
+      <p>TMU University, Ongoing 2023- 2026</p>
+    </div>
+    <div class="edu-item">
+      <h3>Higher Secondary (12th)</h3>
+      <p>Shanti Devi Memorial senior secondary school, Completed in 2022</p>
+      <h3>Higher Secondary (10th)</h3>
+           <p>Shanti Devi Memorial senior secondary school, Completed in 2020</p>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="Services" class="services-section">
+  <h2>My Services</h2>
+  <div class="services-box">
+    <div class="service-card">
+      <i class="fas fa-code"></i>
+      <h3>Web Development</h3>
+      <p>Responsive and clean front-end websites using HTML, CSS & JS.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-paint-brush"></i>
+      <h3>UI/UX Design</h3>
+      <p>Simple and attractive designs using Figma and design tools.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-bolt"></i>
+      <h3>Portfolio Building</h3>
+      <p>Creating personal portfolios with animations and effects.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Projects Section -->
+  <section id="Projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-box">
+          <i class="fas fa-thermometer-half"></i>
+          <h3>Temperature Converter</h3>
+          <a href="https://oibsip-l7emw.sevalla.page/" target="_blank">Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="Contact" class="contact-section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      
+<form class="contact-form" action="https://formspree.io/f/mdkzqejr" method="POST">
+<input type="text" name="name" placeholder="Your Name" required />
+<input type="email" name="email" placeholder="Your Email" required />
+<textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 Rayyan. All rights reserved.</p>
+
+<div class="contact-inline">
+  <span><i class="fas fa-envelope"></i> rayyansaifi6653@gmail.com</span>
+  <span><i class="fas fa-phone"></i> +91 8273076653</span>
+  <span><i class="fas fa-map-marker-alt"></i> Amroha, UP</span>
+</div>
+
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer', 'Graphics Designer', 'Tech Explorer'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1000,
+    loop: true
+  });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
